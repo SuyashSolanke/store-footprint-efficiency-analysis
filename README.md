@@ -1,7 +1,9 @@
 # Store Footprint Efficiency Dashboard
 
 ## Business Problem
-A global electronics retailer operates 66 physical stores across 8 countries, each with different floor space. Revenue alone doesn't show whether that space is used well — a large store can underperform while a small one outshines it. Leadership needs to know which stores convert floor space into revenue efficiently, and which are wasting rent, staff, and inventory investment.
+A global electronics retailer operates 66 physical stores across 8 countries, each with different floor space. 
+Revenue alone doesn't show whether that space is used well — a large store can underperform while a small one outshines it. 
+Leadership needs to know which stores convert floor space into revenue efficiently, and which are wasting rent, staff, and inventory investment.
 
 ## Tools Used
 SQL Server (data exploration) → Power BI + DAX (visualization)
@@ -11,9 +13,9 @@ Global Electronics Retailer (Maven Analytics) — Sales, Stores, Products tables
 [Maven Analytics Data Playground](https://www.mavenanalytics.io/data-playground)
  
 ## Approach
-1. SQL exploration (7-part analysis: base check → revenue → productivity →
+1. SQL exploration in SQL Server Management Studio(7-part analysis: base check → revenue → productivity →
    country rollup → size segmentation → age check → outlier flagging)
-2. Star schema model in Power BI (Import mode, 3 lean views)
+2. Star schema model in Power BI (Direct Query mode, 3 lean views)
 3. 6 KPIs + 4 interactive visuals + 2 slicers
 
 ## Key Insights
